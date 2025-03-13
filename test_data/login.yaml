@@ -1,0 +1,13 @@
+#我们通过yaml文件来实现文件的数据与代码进行分离
+#关于yaml文件，以 - 开头的行表示构成一个组：- - -  
+ #关于文件中的参数与数组，在引号右面需要加空格
+-
+   path: v1/account/login
+
+   data:
+     username: admin
+     password: zhz123456
+
+
+  
+
